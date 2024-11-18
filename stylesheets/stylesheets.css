@@ -1,0 +1,1286 @@
+@media only screen and (min-width: 765px) {
+    body {
+        margin: 0;
+        overflow-x: hidden;
+        display: block;
+        width: 100%;
+    }
+
+    .container1 {
+        width: 85%;
+        float: right;
+        display: inline-block;
+    }
+
+    .left-side-dashboard {
+        height: 100%;
+        width: 15%;
+        float: left;
+        display: inline-block;
+        background-color: #343a40;
+    }
+
+    .left-side-dashboard::after {
+        content: "";
+        clear: both;
+        display: table;
+        box-sizing: inherit;
+    }
+
+    .left-side-dashboard ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 0px;
+        padding-left: 20px;
+        width: 80%;
+        /* max-width: 200px; */
+        margin-bottom: 5px;
+        border-radius: 8px;
+    }
+    #personalName{
+        padding: 10px 30px;
+        padding-left: 20px;
+        /* width: 100%; */
+        /* max-width: 200px; */
+        margin-bottom: 5px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #c2c7d0;
+        font-size: medium;
+        float: left;
+        margin-top: 3%;
+    }
+    
+    #personalName:hover{
+        color: white;
+    }
+
+    .personalImg {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 50px;
+        margin-left: 5%;
+        display: inline-block;
+        float: left;
+    }
+    #personalDiv::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .personalImg img {
+        width: 50px;
+    }
+
+    .left-side-dashboard ul li:hover {
+        background-color: #596066;
+    }
+
+    .left-side-dashboard ul li a {
+        text-decoration: none;
+        color: #c2c7d0;
+        font-size: medium;
+    }
+
+    nav {
+        padding-top: 20px;
+        /* padding-left: 10%; */
+    }
+
+    /* .nav_dash{
+        width: 80%;
+        float: right;
+    } */
+
+    nav i {
+        font-size: 30px;
+        margin-right: 5px;
+        color: black;
+    }
+
+    .mobile {
+        float: left;
+        margin-left: 10%;
+    }
+
+    nav h1 {
+        display: inline-block;
+        font-size: 30px;
+        margin: 0;
+        color: black;
+    }
+
+    .fa-angles-right {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    nav ul {
+        display: inline-block;
+        float: right;
+        margin-right: 10%;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 15px 30px;
+        border-radius: 25px;
+        color: gray;
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(255, 0, 0, 0.274);
+    }
+
+    nav ul li:nth-child(3) a {
+        border: 1px solid gray;
+    }
+
+    nav ul li:nth-child(3) a:hover {
+        background-color: rgba(90, 90, 90, 0.274);
+    }
+
+    nav ul li:nth-child(4) a {
+        color: red;
+        margin-left: 10px;
+        background-color: rgba(255, 56, 122, 0.123);
+    }
+
+    nav ul li:nth-child(4) a:hover {
+        color: black;
+    }
+
+
+    .dside {
+        width: 25%;
+    }
+
+    .dside #index_img {
+        float: right;
+        width: 240px;
+        height: 120px;
+        border-radius: 120px;
+        overflow: hidden;
+    }
+
+    .dside img {
+        width: 100%;
+    }
+
+    .side {
+        width: 25%;
+        overflow: hidden;
+    }
+
+    .side div {
+        position: relative;
+        left: 35%;
+        width: 300px;
+        height: 150px;
+        border-radius: 150px;
+        overflow: hidden;
+    }
+
+    .side img {
+        width: 100%;
+    }
+
+    .middle {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .middle h1 {
+        font-size: 50px;
+    }
+
+    .middle label {
+        color: red;
+    }
+
+    .middle p {
+        color: gray;
+        /* font-size: small; */
+        margin-top: -20px;
+        width: 80%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .middle #button {
+        padding: 15px 30px;
+        background: linear-gradient(to left, orange 1%, red, rgba(137, 43, 226, 0.658) 130%);
+        border-radius: 25px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .middle div {
+        width: 100%;
+        height: 100%;
+        border-radius: 300px;
+        overflow: hidden;
+    }
+
+    .middle img {
+        width: 120%;
+    }
+
+
+    .dside1 {
+        width: 25%;
+    }
+
+    .dside1 div {
+        width: 60%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .dside1 img {
+        width: 160%;
+        float: right;
+    }
+
+    .side1 {
+        width: 25%;
+        overflow: hidden;
+    }
+
+    .side1 div {
+        width: 40%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .side1 img {
+        width: 100%;
+        float: left;
+    }
+
+
+    .reviw {
+        background-color: rgb(43, 43, 43);
+        color: white;
+    }
+
+    .slide {
+        width: 25%;
+        display: inline-block;
+        float: left;
+        text-align: center;
+    }
+
+    .slide::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-bottom: 50px;
+    }
+
+    /* .slide1{
+    position: relative;
+    top: -15px;
+} */
+    .slide i {
+        color: white;
+        font-size: small;
+        float: left;
+        position: relative;
+        left: 20px;
+    }
+
+    .slide h3 {
+        float: left;
+        position: relative;
+        left: 20px;
+        top: -15px;
+    }
+
+    .slide p {
+        width: 90%;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        top: -30px;
+    }
+
+    .reviw {
+        padding-top: 20px;
+    }
+
+    .reviw #p1 {
+        color: rgb(43, 43, 43);
+    }
+
+    .reviw h1 {
+        margin-left: 10px;
+    }
+
+
+    form {
+        width: 50%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    #form_login {
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #form_login div {
+        width: 50%;
+        display: inline-block;
+        margin-bottom: 10px;
+        text-align: left;
+        color: rgba(255, 0, 0, 0.658);
+        font-weight: bold;
+    }
+
+    #input {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 20px;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 0 10px;
+        font-size: large;
+        outline: none;
+    }
+
+    #input_login {
+        width: 50%;
+        height: 25px;
+        margin-bottom: 15px;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 0 10px;
+        font-size: medium;
+        outline: none;
+    }
+
+    textarea {
+        width: 100%;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 5px 10px;
+        font-size: large;
+        outline: none;
+    }
+
+    #submit {
+        display: block;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0.212);
+        color: red;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    #submit_login {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0.212);
+        color: red;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    #listul {
+        visibility: hidden;
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .circle {
+        width: 30%;
+        height: 50ch;
+        background-color: rgba(255, 0, 0, 0.384);
+        display: inline-block;
+        border-radius: 50%;
+        filter: blur(100px);
+        position: absolute;
+        z-index: -1;
+        top: 150px;
+        left: -150px;
+    }
+
+
+    .circle_login {
+        width: 30%;
+        height: 50ch;
+        background-color: rgba(255, 0, 0, 0.315);
+        display: inline-block;
+        border-radius: 50%;
+        filter: blur(100px);
+        position: absolute;
+        z-index: -1;
+        top: 150px;
+        left: -180px;
+    }
+
+    .circle1_login {
+        width: 25%;
+        height: 35ch;
+        background-color: rgba(255, 0, 0, 0.315);
+        display: inline-block;
+        border-radius: 50%;
+        filter: blur(100px);
+        position: absolute;
+        z-index: -1;
+        top: 400px;
+        right: -150px;
+    }
+
+    .footer_login {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .subDiv80 {
+        width: 80%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .middle_side {
+        width: 75%;
+        background-color: red;
+        text-align: left;
+    }
+
+    .middle_side h1 {
+        text-align: left;
+    }
+
+
+    .circle_img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .circle_img img {
+        width: 150%;
+        /* height: 100%; */
+    }
+
+    #name_user {
+        font-size: large;
+        color: black;
+        text-decoration: none;
+    }
+
+    #dash_table {
+        border-collapse: collapse;
+    }
+
+    #dash_table td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    #dash_table #td_tob {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    #dash_table #td_bottom {
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .circle {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .circle1 {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .circle_login {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .circle1_login {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    nav {
+        padding-top: 15px;
+        padding-left: 5%;
+        padding-right: 3%;
+        background-color: rgb(253, 173, 173);
+    }
+
+    nav::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    nav i {
+        float: left;
+        font-size: 25px;
+        margin-right: 3px;
+        color: black;
+    }
+
+    .mobile::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    nav h1 {
+        float: left;
+        display: inline-block;
+        font-size: 25px;
+        margin: 0;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .fa-angles-right {
+        transform: rotate(90deg);
+        float: right;
+        margin-right: 10px;
+        color: black;
+    }
+
+    #listul {
+        color: black;
+    }
+
+    nav .ullist {
+        background-color: rgb(253, 173, 173);
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin-top: -1px;
+        z-index: 100;
+    }
+
+    nav #listing {
+        float: left;
+        margin-left: 1%;
+        padding: 0;
+        visibility: hidden;
+        display: none;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 5px 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 5px 5px;
+        font-size: large;
+        color: black;
+    }
+
+    /* nav ul li:nth-child(3) a {
+        border: none;
+    }
+
+    nav ul li:nth-child(4) a {
+        border: none;
+        background-color: white;
+        color: gray;
+        margin-left: 0;
+    }
+
+    nav ul li:nth-child(3) a:hover {
+        background-color: white;
+    }
+
+    nav ul li:nth-child(4) a:hover {
+        background-color: white;
+    } */
+
+    .dside {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .side {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .dside1 {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .side1 {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .middle {
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 5%;
+        display: inline-block;
+    }
+
+    .middle h1 {
+        font-size: 45px;
+    }
+
+    .middle label {
+        color: red;
+    }
+
+    .middle p {
+        color: gray;
+        font-size: medium;
+        margin-top: -20px;
+        width: 80%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .middle #button {
+        padding: 15px 30px;
+        background: linear-gradient(to left, orange 1%, red, rgba(137, 43, 226, 0.658) 130%);
+        border-radius: 25px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .middle div {
+        width: 95%;
+        height: 95%;
+        border-radius: 300px;
+        overflow: hidden;
+    }
+
+    .middle img {
+        width: 120%;
+    }
+
+
+    .reviw {
+        background-color: rgb(43, 43, 43);
+        color: white;
+    }
+
+    .slide {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        text-align: center;
+    }
+
+    .slide::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-bottom: 50px;
+    }
+
+    /* .slide1{
+    position: relative;
+    top: -15px;
+} */
+    .slide i {
+        color: white;
+        font-size: small;
+        float: left;
+        position: relative;
+        left: 10px;
+    }
+
+    .slide h3 {
+        float: left;
+        position: relative;
+        left: 10px;
+        top: -15px;
+    }
+
+    .slide p {
+        width: 90%;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        top: -30px;
+    }
+
+    .reviw {
+        padding-top: 20px;
+    }
+
+    .reviw #p1 {
+        color: rgb(43, 43, 43);
+    }
+
+    .reviw h1 {
+        margin-left: 10px;
+    }
+
+
+    form {
+        width: 70%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    #form_login {
+        width: 70%;
+        display: inline-block;
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #form_login div {
+        width: 90%;
+        display: inline-block;
+        /* margin-bottom: 10px; */
+        text-align: left;
+        color: rgba(255, 0, 0, 0.658);
+        font-weight: bold;
+    }
+
+    #input {
+        width: 90%;
+        height: 30px;
+        margin-bottom: 20px;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 0 10px;
+        font-size: large;
+        outline: none;
+    }
+
+    #input_login {
+        width: 80%;
+        height: 35px;
+        margin-bottom: 15px;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 0 10px;
+        font-size: medium;
+        outline: none;
+    }
+
+    textarea {
+        width: 90%;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 5px 10px;
+        font-size: large;
+        outline: none;
+    }
+
+    #submit {
+        display: block;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0.212);
+        color: red;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #submit_login {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0.212);
+        color: red;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer_login {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .circle {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .circle1 {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .circle_login {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .circle1_login {
+        width: 0;
+        height: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    nav {
+        padding-top: 15px;
+        padding-left: 5%;
+        padding-right: 3%;
+        background-color: rgb(253, 173, 173);
+    }
+
+    nav::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    nav i {
+        float: left;
+        font-size: 20px;
+        margin-right: 3px;
+        color: black;
+    }
+
+    .mobile::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    nav h1 {
+        float: left;
+        display: inline-block;
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .fa-angles-right {
+        transform: rotate(90deg);
+        float: right;
+        margin-right: 10px;
+        color: black;
+    }
+
+    #listul {
+        color: black;
+    }
+
+    nav .ullist {
+        background-color: rgb(253, 173, 173);
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin-top: -1px;
+        z-index: 100;
+    }
+
+    nav #listing {
+        float: left;
+        margin-left: 1%;
+        padding: 0;
+        visibility: hidden;
+        display: none;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 5px 0;
+    }
+
+    nav ul li:hover {
+        animation: ulist 0.5s ease forwards;
+    }
+
+    @keyframes ulist {
+        100% {
+            border: 1px solid red;
+            border-left: none;
+            border-right: none;
+        }
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: 5px 5px;
+        color: black;
+    }
+
+    /* nav ul li:nth-child(3) a {
+        border: none;
+    }
+
+    nav ul li:nth-child(4) a {
+        border: none;
+        background-color: white;
+        color: gray;
+        margin-left: 0;
+    }
+
+    nav ul li:nth-child(3) a:hover {
+        background-color: white;
+    }
+
+    nav ul li:nth-child(4) a:hover {
+        background-color: white;
+    } */
+
+    .dside {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .side {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .dside1 {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .side1 {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .middle {
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 5%;
+        display: inline-block;
+    }
+
+    .middle h1 {
+        font-size: 33px;
+    }
+
+    .middle label {
+        color: red;
+    }
+
+    .middle p {
+        color: gray;
+        font-size: small;
+        margin-top: -20px;
+        width: 80%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .middle #button {
+        padding: 15px 30px;
+        background: linear-gradient(to left, orange 1%, red, rgba(137, 43, 226, 0.658) 130%);
+        border-radius: 25px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .middle div {
+        width: 95%;
+        height: 95%;
+        border-radius: 300px;
+        overflow: hidden;
+    }
+
+    .middle img {
+        width: 120%;
+    }
+
+
+    .reviw {
+        background-color: rgb(43, 43, 43);
+        color: white;
+    }
+
+    .slide {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        text-align: center;
+    }
+
+    .slide::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-bottom: 50px;
+    }
+
+    /* .slide1{
+    position: relative;
+    top: -15px;
+} */
+    .slide i {
+        color: white;
+        font-size: small;
+        float: left;
+        position: relative;
+        left: 10px;
+    }
+
+    .slide h3 {
+        float: left;
+        position: relative;
+        left: 10px;
+        top: -15px;
+    }
+
+    .slide p {
+        width: 90%;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        top: -30px;
+    }
+
+    .reviw {
+        padding-top: 20px;
+    }
+
+    .reviw #p1 {
+        color: rgb(43, 43, 43);
+    }
+
+    .reviw h1 {
+        margin-left: 10px;
+    }
+
+
+    form {
+        width: 70%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    #form_login {
+        width: 70%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #form_login div {
+        width: 90%;
+        display: inline-block;
+        /* margin-bottom: 10px; */
+        text-align: left;
+        color: rgba(255, 0, 0, 0.658);
+        font-weight: bold;
+    }
+
+    #input {
+        width: 90%;
+        height: 30px;
+        margin-bottom: 20px;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 0 10px;
+        font-size: large;
+        outline: none;
+    }
+
+    #input_login {
+        width: 80%;
+        height: 35px;
+        margin-bottom: 15px;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 0 10px;
+        font-size: medium;
+        outline: none;
+    }
+
+    textarea {
+        width: 90%;
+        border-color: rgba(255, 0, 0, 0.37);
+        border-style: solid;
+        border-width: 2px;
+        padding: 5px 10px;
+        font-size: large;
+        outline: none;
+    }
+
+    #submit {
+        display: block;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0.212);
+        color: red;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #submit_login {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0.212);
+        color: red;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer_login {
+        position: relative;
+    }
+}
+
+
+
+.main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+
+
+footer {
+    color: white;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+}
+
+h4 a {
+    color: white;
+}
+
+.mid {
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    width: 40%;
+    float: left;
+}
+
+.Categories {
+    display: inline-block;
+    text-align: left;
+    width: 45%;
+    float: right;
+    margin-right: 20px;
+}
+
+.Categories li {
+    /* list-style: none; */
+    margin-bottom: 10px;
+}
+
+.Categories ul li a {
+    color: white;
+    text-decoration: none;
+}
